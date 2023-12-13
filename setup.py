@@ -14,6 +14,8 @@ install_requires = [
     "matplotlib>=3.3",
     "scipy",
     "numpy",
+    "pandas",
+    "mpl_toolkits",
 ]
 
 setup(
