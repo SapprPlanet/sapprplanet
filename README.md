@@ -16,11 +16,6 @@ For this code, we work on the develop branch and merge it to the main branch (wi
 The description of the method is in the following article: 
 [Malkin Z. A New Equal-area Isolatitudinal Grid on a Spherical Surface // The Astronomical J. 2019. V. 158. Iss. 4. Art. No. 158. DOI: 10.3847/1538-3881/ab3a44.](https://doi.org/10.3847/1538-3881/ab3a44)
 
-
-`MSLVMix` The model describes a substance state in three phases. Thermodynamics states are points on Legendrian or Lagrangian manifolds in the corresponding contact or symplectic spaces in terms of differential geometry. The conditions of applicable states and the first order phase transition are given for the Modified Solid-Liquid-Vapour equation of state. The Lagrangian manifold, singularity curve and the phase transition curves are plotted for methane. The description of the method is in the following article: 
-[Maksim Kostiuchek, Alexey Batov, Ivan Galyaev, Anton Salnikov. Some Features of the Modified Solid-Liquid-Vapor Equation of State.](http://dx.doi.org/10.2139/ssrn.4613860)
-
-
 ...
 
 ## Example scripts
