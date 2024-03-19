@@ -1,5 +1,5 @@
 import os
-rootdir = 'maven.mag.calibrated'
+rootdir = '../data/maven.mag.calibrated'
 
 for subdir, dirs, files in os.walk(rootdir):
     for file in files:

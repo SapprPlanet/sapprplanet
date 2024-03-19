@@ -9,7 +9,7 @@ import numpy
 from scipy import spatial
 from matplotlib import cm
 
-rootdir = 'maven.mag.calibrated'
+rootdir = '../data/maven.mag.calibrated'
 # rootdir = 'test'
 
 
@@ -258,7 +258,7 @@ else:
             if numpy.linalg.norm(cell_XYZ[i]) > 0:
                 cell_R.append(Sr)
                 outF.write(str(j+1) + "\t" +
-                           str(Btotal) + "\t" + str(Sr) + "\t" + str(St*180/numpy.pi) + "\t" +
+                           str(Btotal) + "\t" + str(Sr) + "\t" + str(St*180/numpy.pi+180) + "\t" +
                            str(Sp*180/numpy.pi) + "\n")
                 j += 1
         i += 1
@@ -276,7 +276,8 @@ else:
     #        z4.append(z[i])
 
     fig = matplotlib.pyplot.figure()
-    ax = fig.gca(projection='3d')
+    #ax = fig.gca(projection='3d')
+    ax = fig.add_subplot(projection = '3d')
 
     # Render
     fig.suptitle("Equal-area grid on a spherical surface\n(41252 cells)")

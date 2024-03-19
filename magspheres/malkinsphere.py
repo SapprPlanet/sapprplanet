@@ -6,6 +6,7 @@ import pandas
 import matplotlib.pyplot
 import mpl_toolkits.mplot3d
 import numpy
+
 from scipy import spatial
 
 rootdir = 'maven.mag.calibrated/2020/10'
