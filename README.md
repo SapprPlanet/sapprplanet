@@ -16,7 +16,9 @@ The description of the method is in the following article:
 
 ## Model
 `model` folder contains global models in spherical harmonics expansions.
+
 `clm_Br_Maven_Plus.txt` - a model of the magnetic field of Mars, based on MAVEN data and supplemented by MGS data in regions above 75° N and below 75° S, presented as a spherical harmonic expansion.
+
 `spectr.ipynb` - spectr of the model "Br_Maven_Plus"
 
 ## Example scripts
