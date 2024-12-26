@@ -9,14 +9,15 @@ The library allows you to make samples of satellite measurements from large data
 #### Contribute
 This code is still under development and benchmarking. If you find any bugs or errors in the code, please report them in GitHub or email us.
 
-For this code, we work on the develop branch and merge it to the main branch (with a new version number) everytime significant addtions/improvements are made. If you plan on making contributions, please base everything on the develop branch.
-
 ## Methods
 `malkinsphere` implements method used to divide the spherical surface into equal-area cells was the spherical, rectangular equal-area grid (SREAG).
 The description of the method is in the following article: 
 [Malkin Z. A New Equal-area Isolatitudinal Grid on a Spherical Surface // The Astronomical J. 2019. V. 158. Iss. 4. Art. No. 158. DOI: 10.3847/1538-3881/ab3a44.](https://doi.org/10.3847/1538-3881/ab3a44)
 
-...
+## Model
+`model` folder contains global models in spherical harmonics expansions.
+`clm_Br_Maven_Plus.txt` - a model of the magnetic field of Mars, based on MAVEN data and supplemented by MGS data in regions above 75° N and below 75° S, presented as a spherical harmonic expansion.
+`spectr.ipynb` - spectr of the model "Br_Maven_Plus"
 
 ## Example scripts
 `malkinsphere_example` example of the malkinsphere method.
